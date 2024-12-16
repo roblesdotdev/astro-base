@@ -3,6 +3,8 @@
   "editor.formatOnType": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "biome.enabled": false,
+  "editor.rulers": [80],
+  "css.lint.unknownAtRules": "ignore",
   "editor.codeActionsOnSave": {
     "source.organizeImports": "never",
     "source.fixAll": "always"
@@ -10,5 +12,10 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "files.associations": {
+    "*.md": "mdx",
+    "*.xml": "html",
+    "*.svg": "html"
   }
 }
