@@ -9,12 +9,15 @@
     "astro": "astro",
     "prettier": "prettier \"**/*.+(js|jsx|astro|css|ts|tsx|cjs|mjs)\"",
     "format": "pnpm prettier --list-different",
-    "format:fix": "pnpm prettier --write"
+    "format:fix": "pnpm prettier --write",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
   },
   "dependencies": {
     "astro": "^5.0.7"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "prettier": "3.4.2",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "0.6.9"
