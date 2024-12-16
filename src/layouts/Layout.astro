@@ -1,3 +1,7 @@
+---
+import '~/styles/global.css'
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,16 +10,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Astro Basics</title>
   </head>
-  <body>
+  <body class="min-h-screen min-w-80 antialiased">
     <slot />
   </body>
 </html>
-
-<style>
-  html,
-  body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-  }
-</style>
