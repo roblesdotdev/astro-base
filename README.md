@@ -10,11 +10,11 @@ preconfigured Git hooks.
 
 ## Checklist
 
-- [ ] **Tailwind CSS**: Utility-first styling framework is integrated.
-- [ ] **TypeScript**: Static typing ensures better code quality.
-- [ ] **Biome**: Linting is set up and ready to catch code issues.
-- [ ] **Prettier**: Code formatting is preconfigured for consistency.
-- [ ] **Git Hooks**: Pre-commit hooks for linting and formatting.
+- [x] **Tailwind CSS**: Utility-first styling framework is integrated.
+- [x] **TypeScript**: Static typing ensures better code quality.
+- [x] **Biome**: Linting is set up and ready to catch code issues.
+- [x] **Prettier**: Code formatting is preconfigured for consistency.
+- [x] **Git Hooks**: Pre-commit hooks for linting and formatting.
 - [ ] **SEO**: Metadata and OpenGraph tags are preconfigured for search engines.
 - [ ] **RSS Feed**: Automatically generates an RSS feed for blog content.
 - [ ] **Dark/Light Theme**: Includes a toggle mechanism for theme switching.
