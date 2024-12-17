@@ -15,7 +15,6 @@ preconfigured Git hooks.
 - [x] **Biome**: Linting is set up and ready to catch code issues.
 - [x] **Prettier**: Code formatting is preconfigured for consistency.
 - [x] **Git Hooks**: Pre-commit hooks for linting and formatting.
-- [ ] **SEO**: Metadata and OpenGraph tags are preconfigured for search engines.
-- [ ] **RSS Feed**: Automatically generates an RSS feed for blog content.
+- [x] **SEO**: Metadata and OpenGraph tags are preconfigured for search engines.
 - [ ] **Dark/Light Theme**: Includes a toggle mechanism for theme switching.
 - [ ] **Vitest**: Testing environment is set up for fast and reliable tests.
