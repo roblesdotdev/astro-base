@@ -5,6 +5,6 @@ export const config = {
   description: 'Minimalist starter for web projects built with Astro',
   keywords: ['astro', 'tailwind', 'typescript', 'theme', 'template'],
   theme: '#000000',
-  ogImage: '/',
+  ogImage: '/og.png',
   author: '@roblesdotdev',
 }
